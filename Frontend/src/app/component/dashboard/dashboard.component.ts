@@ -41,6 +41,7 @@ export class DashboardComponent implements OnInit {
         console.log(res);
         this.getAllEmployee();
     },err=>{
+      alert("something went wrong");
         console.log(err);
     });
 
